@@ -21,6 +21,7 @@ void Game::execute()
     while (graphics->isWindowOpen())
     {
         // TODO switch to EventsManager
+        /*-------------------------------------------------------------*/
         sf::Event event;
         while(graphics->getWindow->pollEvent(event))
         {
@@ -30,8 +31,8 @@ void Game::execute()
                     exit(1);
                 }
         }
+        /*-------------------------------------------------------------*/
 
-        graphics->getWindow()->pollEvents()
         graphics->updateDeltaTime();
         graphics->clear();
         graphics->display();
