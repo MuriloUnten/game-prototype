@@ -9,13 +9,13 @@ Game::Game()
 }
 
 
-Game::Game()
+Game::~Game()
 {
 
 }
 
 
-void execute()
+void Game::execute()
 {
 
 }
