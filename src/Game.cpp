@@ -23,7 +23,7 @@ void Game::execute()
         // TODO switch to EventsManager
         /*-------------------------------------------------------------*/
         sf::Event event;
-        while(graphics->getWindow->pollEvent(event))
+        while(graphics->getWindow()->pollEvent(event))
         {
             if(event.type == sf::Event::Closed)
                 {

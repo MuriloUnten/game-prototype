@@ -31,7 +31,7 @@ namespace Managers
 		void display();
 		sf::RenderWindow* getWindow();
 
-        void resize(float newWidth=0.0f, newHeight=0.0f);
+        void resize(float newWidth=0.0f, float newHeight=0.0f);
 
 		void updateDeltaTime();
 		static const float getDeltaTime();

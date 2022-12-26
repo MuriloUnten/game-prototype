@@ -27,7 +27,7 @@ namespace Managers
     GraphicsManager::GraphicsManager():
     width(1280.0f),
     height(720.0f),
-    window(new sf::RenderWindow(sf::VideoMode(width, height), "CHANGE THIS TITLE")),
+    window(new sf::RenderWindow(sf::VideoMode(width, height), "CHANGE THIS TITLE"))
     {
 
     }
@@ -74,7 +74,7 @@ namespace Managers
     }
 
     /* Takes the new resolution and resizes the window */
-    void resize(float newWidth, newHeight)
+    void resize(float newWidth, float newHeight)
     {
         //TODO Implemennt
     }
